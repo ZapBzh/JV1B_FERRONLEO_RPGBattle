@@ -1,0 +1,1190 @@
+body
+{
+    background-image: url(https://cdn.discordapp.com/attachments/1035201518288257125/1035201542841708604/map_lave.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+    height: 1750px;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: space-around;
+}
+
+
+
+/*________________________perso________________________*/
+
+#perso{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+/*__________________________ennemie______________________________*/
+
+#ennemies{
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+
+
+
+
+#mage{
+    font-size: 20px;
+    
+    display: flex;
+    position: relative;
+    
+    
+    
+    background-size: contain;
+    align-items: center;
+    
+    justify-content: space-between;
+    align-items:center ;
+    flex-direction: column;
+     
+}
+
+#textMage1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 65, 121);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    border-width: 5px;
+    background-size: 100%;
+    height: 100px;
+    width: 200px;  
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+}
+
+#vieMage1{
+    background-color: rgb(22, 121, 30);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+#mage2{
+    display: flex;
+    position: relative;
+    
+    background-size: contain;
+    align-items: center;
+    
+    justify-content: space-between;
+    align-items:center ;
+    flex-direction: column;
+     
+}
+
+#textMage2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 65, 121);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    border-width: 5px;
+    background-size: 100%;
+    
+    
+    height: 100px;
+    width: 200px;  
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+}
+
+#vieMage2{
+    background-color: rgb(22, 121, 30);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/*_____________________________________________________________*/
+#mage3{
+    display: flex;
+    position: relative;
+    
+    
+    
+    background-size: contain;
+    align-items: center;
+    
+    justify-content: space-between;
+    align-items:center ;
+    flex-direction: column;
+     
+}
+
+#textMage3{
+    color: rgb(255, 255, 255);
+    
+    
+    background-color: rgb(22, 65, 121);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    border-width: 5px;
+    background-size: 100%;
+    height: 100px;
+    width: 200px;  
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+}
+
+#vieMage3{
+    background-color: rgb(22, 121, 30);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+    /*______________________LES HERO___________________________*/
+
+
+
+
+
+
+
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    /*justify-content: space-between;*/
+    flex-direction: column;
+}
+
+/*hero1*/
+
+
+#hero1{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    /*flex-direction: column;*/
+
+    height: 300px;
+}
+
+
+#textHero1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 65, 121);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    border-width: 5px;
+    background-size: 100%;
+    height: 250px;
+    width: 300px;  
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+#vieHero1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 121, 30);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#manaHero1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(76, 206, 223);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#action{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+#lance{
+    color: rgb(255, 196, 0);
+    background-color: rgb(121, 22, 22);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#soins1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 121, 30);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Attaque_spe1{
+    color: rgb(36, 36, 35);
+    background-color: rgb( 255,215,0);
+    border-color: rgb(237, 237, 230);
+    border-style:groove;
+    height: 50px;
+    width: 150px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#quiAttaque1{
+    display: none;
+    height: 50px;
+    width: 280px;
+    font-size: 15px;
+
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+#quiAttaque_spe1{
+
+    display: none;
+    height: 50px;
+    width: 280px;
+    font-size: 15px;
+
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+#lance_toros_mage1{
+    color: rgb(255, 196, 0);
+    background-color: rgb(121, 22, 22);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+
+}
+
+#lance_toros_mage2{
+    color: rgb(255, 196, 0);
+    background-color: rgb(121, 22, 22);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+
+#lance_toros_mage3{
+    color: rgb(255, 196, 0);
+    background-color: rgb(121, 22, 22);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+
+#spe_toros_mage1{
+    color: rgb(36, 36, 35);
+    background-color: rgb( 255,215,0);
+    border-color: rgb(237, 237, 230);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+#spe_toros_mage2{
+    color: rgb(36, 36, 35);
+    background-color: rgb( 255,215,0);
+    border-color: rgb(237, 237, 230);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+
+#spe_toros_mage3{
+    color: rgb(36, 36, 35);
+    background-color: rgb( 255,215,0);
+    border-color: rgb(237, 237, 230);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+
+
+
+
+
+/*hero2*/
+
+
+#hero2{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    /*flex-direction: column;*/
+
+    height: 300px;
+}
+
+#textHero2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 65, 121);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    border-width: 5px;
+    background-size: 100%;
+    height: 250px;
+    width: 300px;  
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#vieHero2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 121, 30);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#manaHero2{
+    color: rgb(0, 0, 0);
+    background-color: rgb(76, 206, 223);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#action2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+#lance2{
+    color: rgb(255, 196, 0);
+    background-color: rgb(121, 22, 22);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#soins2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 121, 30);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+#quiAttaque2{
+    display: none;
+    height: 50px;
+    width: 280px;
+    font-size: 15px;
+
+    justify-content: center;
+    justify-content: space-around;
+
+
+}
+
+
+
+#lance_chevalier_mage1{
+    color: rgb(255, 196, 0);
+    background-color: rgb(121, 22, 22);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+
+}
+
+#lance_chevalier_mage2{
+    color: rgb(255, 196, 0);
+    background-color: rgb(121, 22, 22);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+
+#lance_chevalier_mage3{
+    color: rgb(255, 196, 0);
+    background-color: rgb(121, 22, 22);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+#Attaque_spe2{
+    color: rgb(36, 36, 35);
+    background-color: rgb( 255,215,0);
+    border-color: rgb(237, 237, 230);
+    border-style:groove;
+    height: 50px;
+    width: 150px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#quiAttaque2{
+    display: none;
+    height: 50px;
+    width: 280px;
+    font-size: 15px;
+
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#quiAttaque_spe2{
+
+    display: none;
+    height: 50px;
+    width: 280px;
+    font-size: 15px;
+
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+#spe_chevalier_mage1{
+
+    color: rgb(36, 36, 35);
+    background-color: rgb( 255,215,0);
+    border-color: rgb(237, 237, 230);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+#spe_chevalier_mage2{
+
+    color: rgb(36, 36, 35);
+    background-color: rgb( 255,215,0);
+    border-color: rgb(237, 237, 230);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+#spe_chevalier_mage3{
+
+    color: rgb(36, 36, 35);
+    background-color: rgb( 255,215,0);
+    border-color: rgb(237, 237, 230);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+/*hero3*/
+
+#hero3{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    /*flex-direction: column;*/
+
+    height: 300px;
+}
+
+
+#textHero3{
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 65, 121);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    border-width: 5px;
+    background-size: 100%;
+    height: 250px;
+    width: 300px;  
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#vieHero3{
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 121, 30);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#manaHero3{
+    color: rgb(0, 0, 0);
+    background-color: rgb(76, 206, 223);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#action3{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+#lance3{
+    color: rgb(255, 196, 0);
+    background-color: rgb(121, 22, 22);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#soins3{
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 121, 30);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#quiAttaque3{
+    display: none;
+    height: 50px;
+    width: 280px;
+    font-size: 15px;
+
+    justify-content: center;
+    justify-content: space-around;
+
+
+}
+#Attaque_spe3{
+    color: rgb(36, 36, 35);
+    background-color: rgb( 255,215,0);
+    border-color: rgb(237, 237, 230);
+    border-style:groove;
+    height: 50px;
+    width: 150px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quiAttaque_spe3{
+
+    display: none;
+    height: 50px;
+    width: 280px;
+    font-size: 15px;
+
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+#lance_vol_mage1{
+    color: rgb(255, 196, 0);
+    background-color: rgb(121, 22, 22);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+#lance_vol_mage2{
+    color: rgb(255, 196, 0);
+    background-color: rgb(121, 22, 22);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+
+#lance_vol_mage3{
+    color: rgb(255, 196, 0);
+    background-color: rgb(121, 22, 22);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+#spe_vol_mage1{
+
+    color: rgb(36, 36, 35);
+    background-color: rgb( 255,215,0);
+    border-color: rgb(237, 237, 230);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+#spe_vol_mage2{
+
+    color: rgb(36, 36, 35);
+    background-color: rgb( 255,215,0);
+    border-color: rgb(237, 237, 230);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+#spe_vol_mage3{
+
+    color: rgb(36, 36, 35);
+    background-color: rgb( 255,215,0);
+    border-color: rgb(237, 237, 230);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+
+/*hero4*/
+
+#hero4{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    /*flex-direction: column;*/
+
+    height: 300px;
+}
+
+
+#textHero4{
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 65, 121);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    border-width: 5px;
+    background-size: 100%;
+    height: 250px;
+    width: 300px;  
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#action4{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+
+#vieHero4{
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 121, 30);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#manaHero4{
+    color: rgb(0, 0, 0);
+    background-color: rgb(76, 206, 223);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lance4{
+    color: rgb(255, 196, 0);
+    background-color: rgb(121, 22, 22);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#soins4{
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 121, 30);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    height: 20px;
+    width: 100px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Attaque_spe4{
+    color: rgb(36, 36, 35);
+    background-color: rgb( 255,215,0);
+    border-color: rgb(237, 237, 230);
+    border-style:groove;
+    height: 50px;
+    width: 150px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quiAttaque4{
+    display: none;
+    height: 50px;
+    width: 280px;
+    font-size: 15px;
+
+    justify-content: center;
+    justify-content: space-around;
+
+
+}
+
+#quiAttaque_spe4{
+
+    display: none;
+    height: 50px;
+    width: 280px;
+    font-size: 15px;
+
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+#lance_guerriere_mage1{
+    color: rgb(255, 196, 0);
+    background-color: rgb(121, 22, 22);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px; 
+
+}
+
+#lance_guerriere_mage2{
+    color: rgb(255, 196, 0);
+    background-color: rgb(121, 22, 22);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px; 
+}
+
+
+#lance_guerriere_mage3{
+    color: rgb(255, 196, 0);
+    background-color: rgb(121, 22, 22);
+    border-color: rgb(251, 255, 0);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px; 
+}
+
+#spe_guerriere_mage1{
+
+    color: rgb(36, 36, 35);
+    background-color: rgb( 255,215,0);
+    border-color: rgb(237, 237, 230);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+#spe_guerriere_mage2{
+
+    color: rgb(36, 36, 35);
+    background-color: rgb( 255,215,0);
+    border-color: rgb(237, 237, 230);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+#spe_guerriere_mage3{
+
+    color: rgb(36, 36, 35);
+    background-color: rgb( 255,215,0);
+    border-color: rgb(237, 237, 230);
+    border-style:groove;
+    font-size: 15px;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 80px;
+}
+
+/*______________________INTERFACE___________________________*/
+
+
+
+
+#interface{
+
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+
+#blocInterface{
+    color: rgb(255, 255, 255);
+    
+    background-color: rgb(64, 63, 65);
+    border-color: rgb(204, 162, 23);
+    
+    border-style:groove;
+    border-width: 10px;
+    
+    height: 250px;
+    width: 1000px;  
+    
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+    font-size: 50px;
+
+}
+
+
+
+
+
+

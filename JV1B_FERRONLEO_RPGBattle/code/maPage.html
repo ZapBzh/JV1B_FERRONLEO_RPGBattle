@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Le combat de boss super badass</title>
+        <meta charset="utf-8" />
+        <link href="styles.css" media="all" rel="stylesheet" type="text/css" />
+        <script src="monScript.js" async></script>
+    </head>
+    <body>
+        
+        <div id = "perso">
+            
+            <div id = "ennemies"> 
+                
+                <div id = "mage">
+                    
+                    <div id = "imageMage">
+                        <img id = "mage" src = "https://cdn.discordapp.com/attachments/1035201518288257125/1046086638649999471/mage_noir.png" 
+                        alt="mage noir" height = 200/>
+                    </div>
+                
+                    <div id = "textMage1">
+                        <div id= "LE_MAGE_BLEU">LE PRÊTRE BLEU</div>
+                        
+                        <div id = "vieMage1">
+                            <div>Vie : </div>
+                            
+                            <div id="pvMageNoir">100</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div id = "mage2">
+                    
+                    <div id = "imageMage2">
+                        <img id ="gifmage2" src = "https://cdn.discordapp.com/attachments/1035201518288257125/1046112885039972482/ombre.gif" 
+                        alt="mage noir2" height = 300/>
+                    </div>
+                
+                    <div id = "textMage2">
+                        <div id= "LE_MAGE_NOIR">LE MAGE NOIR</div>
+                        
+                        <div id = "vieMage2">
+                            <div>Vie : </div>
+                            <div id="pvMageNoir2">100</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div id = "mage3">
+                    
+                    <div id = "imageMage3">
+                        <img id = "mage3" src = "https://cdn.discordapp.com/attachments/1035201518288257125/1046086638356414495/mage_noir3.png" 
+                        alt="mage noir3" height = 200/>
+                    </div>
+                
+                    <div id = "textMage3">
+                        <div id= "LE_MAGE_ROUGE">LE PRÊTRE ROUGE</div>
+                        
+                        <div id = "vieMage3">
+                            <div>Vie : </div>
+                            <div id="pvMageNoir3">100</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+            <div id = "hero"> 
+                
+                <div id = "hero1">
+                    <div id = "imageHero">
+                        <img id ="hero1" src = "https://cdn.discordapp.com/attachments/1035201518288257125/1042113347853762630/hero.png" 
+                        alt="hero" height = 200/>
+                    </div>
+                    
+                    <div id = "textHero1">
+                        <div id= "nomHero">El toros</div>
+                        
+                        <div id ="statHero1">
+                            
+                            <div id = "vieHero1">
+                                <div id= "Vous">Vie : </div>
+                                <div id="pvhero1">100</div>
+                            </div>
+
+                            <div id = "manaHero1">
+                                <div id= "Votre_mana">Mana : </div>
+                                <div id="mana1">500</div>
+                            </div>
+
+                        </div>
+
+                        <div id = "action">
+                            <div onclick="afficher1()"  id="lance">Attaque</div>
+                            
+                            <div onclick="cacher1()" id="soins1">Soins</div>
+                        
+                        </div>
+
+                        <div onclick="afficherSpe1()" id="Attaque_spe1">Attaque Spéciale</div>
+
+                        <div id ="quiAttaque1">
+                            
+                            <div id = "lance_toros_mage1"> Prêtre bleu</div>
+                            <div id = "lance_toros_mage2"> Le Mage noir</div>
+                            <div id = "lance_toros_mage3"> Prêtre rouge</div>
+                        
+                        </div>
+                        
+                        <div id ="quiAttaque_spe1">
+                            
+                            <div id = "spe_toros_mage1"> Prêtre bleu</div>
+                            <div id = "spe_toros_mage2"> Le Mage noir</div>
+                            <div id = "spe_toros_mage3"> Prêtre rouge</div>
+                        
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+                
+                <div id = "hero2">
+                    <div id = "imageHero2">
+                        <img id ="hero2" src = "https://cdn.discordapp.com/attachments/1035201518288257125/1046779609234030662/chevalier.png" 
+                        alt="hero2" height = 200/>
+                    </div>
+                    
+                    <div id = "textHero2">
+                        <div id= "nomHero2">Le chevalier</div>
+                        
+
+                        <div id ="statHero2">
+                            <div id = "vieHero2">
+                                <div id= "Vous">Vie : </div>
+                                <div id="pvhero2">100</div>
+                            </div>
+
+                            <div id = "manaHero2">
+                                <div id= "Votre_mana">Mana : </div>
+                                <div id="mana2">500</div>
+                            </div>
+
+                        </div>
+
+                        <div id = "action2">
+                            <div onclick="afficher2()" id="lance2">Attaque</div>
+                            
+                            <div onclick="cacher2()" id="soins2">Soins</div>
+                        
+                        </div>
+                        
+                        <div onclick="afficherSpe2()" id="Attaque_spe2">Attaque Spéciale</div>
+
+                        <div id ="quiAttaque2">
+                            <div id = "lance_chevalier_mage1"> Prêtre bleu</div>
+                            <div id = "lance_chevalier_mage2"> Le Mage noir</div>
+                            <div id = "lance_chevalier_mage3"> Prêtre rouge</div>
+                        </div>
+                    
+                        <div id ="quiAttaque_spe2">
+                            
+                            <div id = "spe_chevalier_mage1"> Prêtre bleu</div>
+                            <div id = "spe_chevalier_mage2"> Le Mage noir</div>
+                            <div id = "spe_chevalier_mage3"> Prêtre rouge</div>
+                        
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+
+                <div id = "hero3">
+                    <div id = "imageHero3">
+                        <img id ="hero3" src = "https://cdn.discordapp.com/attachments/1035201518288257125/1046791253162991686/chevalierAile.png" 
+                        alt="hero3" height = 200/>
+                    </div>
+                    
+                    <div id = "textHero3">
+                        <div id= "nomHero3">Le hero volant</div>
+                        
+                        <div id ="statHero3">
+                            <div id = "vieHero3">
+                                <div id= "Vous">Vie : </div>
+                                <div id="pvhero3">100</div>
+                            </div>
+
+                            <div id = "manaHero3">
+                                <div id= "Votre_mana">Mana : </div>
+                                <div id="mana3">500</div>
+                            </div>
+
+                        </div>
+                        <div id = "action3">
+                            <div onclick="afficher3()" id="lance3">Attaque</div>
+                            
+                            <div onclick="cacher3()" id="soins3">Soins</div>
+                        </div>
+                        
+                        <div onclick="afficherSpe3()" id="Attaque_spe3">Attaque Spéciale</div>
+
+                        <div id ="quiAttaque3">
+                            <div id = "lance_vol_mage1"> Prêtre bleu</div>
+                            <div id = "lance_vol_mage2"> Le Mage noir</div>
+                            <div id = "lance_vol_mage3"> Prêtre rouge</div>
+                        </div>
+                    
+                        <div id ="quiAttaque_spe3">
+                            
+                            <div id = "spe_vol_mage1"> Prêtre bleu</div>
+                            <div id = "spe_vol_mage2"> Le Mage noir</div>
+                            <div id = "spe_vol_mage3"> Prêtre rouge</div>
+                        
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+
+                <div id = "hero4">
+                    <div id = "imageHero4">
+                        <img id ="hero4" src = "https://cdn.discordapp.com/attachments/1035201518288257125/1046800436239270000/Sprite-0007.png" 
+                        alt="hero4" height = 200/>
+                    </div>
+                    
+                    <div id = "textHero4">
+                        <div id= "nomHero4">La gerriere</div>
+                        
+                        <div id ="statHero4">
+                            <div id = "vieHero4">
+                                <div id= "Vous">Vie : </div>
+                                <div id="pvhero4">100</div>
+                            </div>
+
+                            <div id = "manaHero4">
+                                <div id= "Votre_mana">Mana : </div>
+                                <div id="mana4">500</div>
+                            </div>
+
+
+                        </div>
+
+                        <div id = "action4">
+                            <div onclick="afficher4()" id="lance4">Attaque</div>
+                            
+                            <div onclick="cacher4()" id="soins4">Soins</div>
+                        
+                        </div>
+                        
+                        <div onclick="afficherSpe4()" id="Attaque_spe4">Attaque Spéciale</div>
+
+                        <div  id ="quiAttaque4">
+                            <div id = "lance_guerriere_mage1"> Prêtre bleu</div>
+                            <div id = "lance_guerriere_mage2"> Le Mage noir</div>
+                            <div id = "lance_guerriere_mage3"> Prêtre rouge</div>
+                        </div>
+                    
+                        <div id ="quiAttaque_spe4">
+                            
+                            <div id = "spe_guerriere_mage1"> Prêtre bleu</div>
+                            <div id = "spe_guerriere_mage2"> Le Mage noir</div>
+                            <div id = "spe_guerriere_mage3"> Prêtre rouge</div>
+                        
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+
+
+            </div>
+        
+        </div>
+        
+        <div id = "interface">
+        
+            <div id = "blocInterface">
+                <div id="afficheAction"></div>
+            </div>
+
+        </div> 
+    </body>
+</html>
